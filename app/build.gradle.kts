@@ -65,11 +65,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.material)
 
-
-    //ViewPager
-    implementation(libs.androidx.viewpager2)
-    implementation(libs.dotsindicator)
-
     //Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
