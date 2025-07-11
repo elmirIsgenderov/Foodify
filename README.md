@@ -28,29 +28,52 @@ I'm excited to keep learning and building more useful applications! 🚀📱
 ## 📷 Screenshots
 Below are screenshots of the application:
 
-### 🚪 Entry Page 
+### 🔑 Entry Page 
 ![entry](https://github.com/elmirIsgenderov/Foodify/blob/fd9258529146db4bb7ecc09e4fb90ed16d0246c4/Entry.jpg)
 
 ### 🔐 Login Screen
-![login](screenshots/login.png)
+![login](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/login.jpg)
 
 ### 📝 Sign Up Screen
-![signUp](https://github.com/user-attachments/assets/...your-signup-link...)
+![signUp](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/Signup.jpg)
 
 ### 🏠 Home Screen
-![home](https://github.com/user-attachments/assets/...your-home-link...)
-
-### 🔍 Search Screen
-![search](https://github.com/user-attachments/assets/...your-search-link...)
+![home](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/Home.jpg)
 
 ### ❤️ Favorites
-![favorites](https://github.com/user-attachments/assets/...your-favorites-link...)
+![favorites](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/Favourite.jpg)
 
 ### 🧺 Basket
-![basket](https://github.com/user-attachments/assets/...your-basket-link...)
+![basket](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/Basket.jpg)
+![basket](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/Basket-2.jpg)
 
-### 👤 Profile / Edit Profile
-![profile](https://github.com/user-attachments/assets/...your-profile-link...)
+### 👤 Profile
+![profile](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/Profile.jpg)
+
+### 📝 Edit Profile
+![editprofile](https://github.com/elmirIsgenderov/Foodify/blob/850a4e29990617c474f01c38eff2f80dc68f3711/edit_profile.png.jpg)
+
+
+### 💳 Payment Methods
+![paymentmethods](https://github.com/elmirIsgenderov/Foodify/blob/2b02e30ef7c28633a2bb43e5b46451de0c40fa25/Payments.jpg)
+
+### ➕ Add Card
+![addcard](https://github.com/elmirIsgenderov/Foodify/blob/2b02e30ef7c28633a2bb43e5b46451de0c40fa25/Add%20new%20card.jpg)
+
+### 📜 Order History
+![orderhistory](https://github.com/elmirIsgenderov/Foodify/blob/2b02e30ef7c28633a2bb43e5b46451de0c40fa25/Order%20history.jpg)
+
+### 🌐 Language
+![language](https://github.com/elmirIsgenderov/Foodify/blob/2b02e30ef7c28633a2bb43e5b46451de0c40fa25/Language.jpg)
+
+### 🚪 Log Out
+![logout](https://github.com/elmirIsgenderov/Foodify/blob/2b02e30ef7c28633a2bb43e5b46451de0c40fa25/Log%20out.jpg)
+
+
+
+
+
+
 
 
 
