@@ -57,7 +57,7 @@ Below are screenshots of the application:
 ### 💳 Payment Methods
 ![paymentmethods](https://github.com/elmirIsgenderov/Foodify/blob/2b02e30ef7c28633a2bb43e5b46451de0c40fa25/Payments.jpg)
 
-### ➕ Add Card
+### ➕ Add New Card
 ![addcard](https://github.com/elmirIsgenderov/Foodify/blob/2b02e30ef7c28633a2bb43e5b46451de0c40fa25/Add%20new%20card.jpg)
 
 ### 📜 Order History
