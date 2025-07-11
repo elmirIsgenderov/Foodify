@@ -28,4 +28,30 @@ I'm excited to keep learning and building more useful applications! 🚀📱
 ## 📷 Screenshots
 Below are screenshots of the application:
 
+### 🚪 Entry Page 
+![entry](https://github.com/elmirIsgenderov/Foodify/blob/fd9258529146db4bb7ecc09e4fb90ed16d0246c4/Entry.jpg)
+
+### 🔐 Login Screen
+![login](screenshots/login.png)
+
+### 📝 Sign Up Screen
+![signUp](https://github.com/user-attachments/assets/...your-signup-link...)
+
+### 🏠 Home Screen
+![home](https://github.com/user-attachments/assets/...your-home-link...)
+
+### 🔍 Search Screen
+![search](https://github.com/user-attachments/assets/...your-search-link...)
+
+### ❤️ Favorites
+![favorites](https://github.com/user-attachments/assets/...your-favorites-link...)
+
+### 🧺 Basket
+![basket](https://github.com/user-attachments/assets/...your-basket-link...)
+
+### 👤 Profile / Edit Profile
+![profile](https://github.com/user-attachments/assets/...your-profile-link...)
+
+
+
 
