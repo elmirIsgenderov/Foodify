@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Foodify</string>
+    <string name="language">Dil</string>
+    <string name="increase_quantity">Miktarı Artır</string>
+    <string name="decrease_quantity">Miktarı Azalt</string>
+    <string name="add_new_card">Yeni Kart Ekle</string>
+    <string name="expiry_date">Son Kullanma Tarihi</string>
+    <string name="cvv">CVV</string>
+    <string name="card_number">Kart Numarası</string>
+    <string name="card_holder">Kart Sahibi</string>
+    <string name="save">Kaydet</string>
+    <string name="cart">Sepet</string>
+    <string name="delivery">Teslimat</string>
+    <string name="total">Toplam</string>
+    <string name="confirm_order">Siparişi Onayla</string>
+    <string name="_0">0</string>
+    <string name="details">Detaylar</string>
+    <string name="add_to_cart">Sepete Ekle</string>
+    <string name="get_started">Başla</string>
+    <string name="favorite">Favori</string>
+    <string name="popular_restaurants">Popüler Restoranlar</string>
+    <string name="recent_products">Son Ürünler</string>
+    <string name="log_in">Giriş Yap</string>
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="or_log_in_with">Veya ile giriş yap</string>
+    <string name="don_t_have_an_account">Hesabınız yok mu?</string>
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="orders_history">Sipariş Geçmişi</string>
+    <string name="payments">Ödemeler</string>
+    <string name="choose_the_payment_method_you_d_like_to_use">Kullanmak istediğiniz ödeme yöntemini seçin.</string>
+    <string name="price">Fiyat:</string>
+    <string name="piece">Adet:</string>
+    <string name="your_order_has_been_placed_successfully">Siparişiniz başarıyla verildi</string>
+    <string name="delivery_free">Teslimat Ücretsiz</string>
+    <string name="delivered">Teslim Edildi</string>
+    <string name="profile">Profil</string>
+    <string name="name">İsim</string>
+    <string name="or_sign_up_with">Veya ile kayıt ol</string>
+    <string name="already_have_an_account">Zaten bir hesabınız var mı?</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="current_password">Mevcut Şifre</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="update">Güncelle</string>
+    <string name="your_profile">Profilin</string>
+    <string name="payment_methods">Ödeme Yöntemleri</string>
+    <string name="address">Adres</string>
+    <string name="orders">Siparişler</string>
+    <string name="setting">Ayarlar</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="location">Konum</string>
+    <string name="home">Ev</string>
+    <string name="basket">Sepet</string>
+    <string name="carefully_prepared_to_please_every_taste">Her damak zevkine hitap edecek şekilde özenle hazırlandı</string>
+    <string name="_4_7">4,7</string>
+    <string name="_20_30_min">20–30 Dakika</string>
+    <string name="whether_it_s_a_full_meal_a_sweet_treat_or_a_refreshing_drink_every_item_is_thoughtfully_crafted_to_offer_great_taste_quality_and_satisfaction_enjoy_a_delicious_moment_with_every_bite_or_sip">
+İster tam bir öğün, ister tatlı bir atıştırmalık ya da ferahlatıcı bir içecek olsun; her ürün, harika lezzet, kalite ve memnuniyet sunmak üzere özenle hazırlanmıştır. Her lokmada veya yudumda lezzetli bir anın tadını çıkarın.
+</string>
+    <string name="_1">1</string>
+    <string name="welcome">Hoş geldin</string>
+    <string name="to_foodify">to Foodify</string>
+
+
+</resources>
