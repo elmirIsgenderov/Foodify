@@ -51,7 +51,7 @@ class Repository(
     fun getToggleFavorite(food: Food, isFavorite: Boolean, callback: (Boolean) -> Unit) {
         remoteDataSource.getToggleFavorite(food, isFavorite)
             .addOnSuccessListener { callback(!isFavorite) }
-            .addOnFailureListener { callback(isFavorite) } // status remains unchanged on failure
+            .addOnFailureListener { callback(isFavorite) }
     }
 
     fun getRemoveFromFavorites(foodId: Int) = remoteDataSource.getRemoveFromFavorites(foodId)

@@ -73,7 +73,7 @@ class YourProfileFragment : Fragment() {
                     if (reauthTask.isSuccessful) {
                         updatePassword(user, newPassword)
                     } else {
-                        showToast("The current password is incorrect") // 🔁 strings.xml faylına əlavə etmək olar
+                        showToast("The current password is incorrect")
                     }
                 }
         }

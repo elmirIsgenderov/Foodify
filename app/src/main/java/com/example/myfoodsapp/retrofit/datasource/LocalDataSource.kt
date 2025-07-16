@@ -46,21 +46,13 @@ class LocalDataSource(
 
         return listOf(
             ProfileOption(R.drawable.ic_user, R.string.your_profile, ProfileOptionType.PROFILE),
-            ProfileOption(
-                R.drawable.ic_payment,
-                R.string.payment_methods,
-                ProfileOptionType.PAYMENT_METHODS
-            ),
+            ProfileOption(R.drawable.ic_payment, R.string.payment_methods, ProfileOptionType.PAYMENT_METHODS),
             ProfileOption(R.drawable.ic_address, R.string.address, ProfileOptionType.ADDRESS),
             ProfileOption(R.drawable.ic_like_empty, R.string.favorite, ProfileOptionType.FAVORITE),
             ProfileOption(R.drawable.ic_order, R.string.orders, ProfileOptionType.ORDERS),
             ProfileOption(R.drawable.ic_language, R.string.language, ProfileOptionType.LANGUAGE),
             ProfileOption(R.drawable.ic_settings, R.string.setting, ProfileOptionType.SETTINGS),
-            ProfileOption(
-                R.drawable.ic_notifications,
-                R.string.notifications,
-                ProfileOptionType.NOTIFICATIONS
-            ),
+            ProfileOption(R.drawable.ic_notifications, R.string.notifications, ProfileOptionType.NOTIFICATIONS),
             ProfileOption(R.drawable.ic_logout, R.string.logout, ProfileOptionType.LOGOUT)
         )
     }

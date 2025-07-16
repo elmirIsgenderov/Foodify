@@ -1,5 +1,6 @@
 package com.example.myfoodsapp.ui.profile.orders.viewmodel
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,7 +15,7 @@ import javax.inject.Inject
 class OrderViewModel @Inject constructor(private val repository: Repository) : ViewModel() {
 
     private val _orders = MutableLiveData<List<OrderItem>>()
-    val orders: MutableLiveData<List<OrderItem>>
+    val orders: LiveData<List<OrderItem>>
         get() = _orders
 
     fun getOrders() {

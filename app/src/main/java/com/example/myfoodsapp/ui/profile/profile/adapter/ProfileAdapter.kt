@@ -32,8 +32,7 @@ class ProfileAdapter(
 
         fun bind(profileOption: ProfileOption) {
             view.imgicon.setImageResource(profileOption.icon)
-            view.txtTitle.text =
-                view.root.context.getString(profileOption.titleRes)//profileOption.context.getString(profileOption.titleRes)
+            view.txtTitle.text = view.root.context.getString(profileOption.titleRes)//profileOption.context.getString(profileOption.titleRes)
             itemView.setOnClickListener { onItemClick(profileOption) }
         }
     }

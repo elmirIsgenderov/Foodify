@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="3dp"
-            android:inputType="text" />
+            android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -128,7 +128,6 @@
         android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/txtOrwith"
         app:layout_constraintEnd_toStartOf="@+id/txtOrwith"
-        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/txtOrwith" />
 
@@ -142,7 +141,6 @@
         android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@id/txtOrwith"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toEndOf="@id/txtOrwith"
         app:layout_constraintTop_toTopOf="@id/txtOrwith" />
 

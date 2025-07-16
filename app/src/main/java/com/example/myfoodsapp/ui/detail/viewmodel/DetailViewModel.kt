@@ -47,7 +47,7 @@ class DetailViewModel @Inject constructor(private val repository: Repository) : 
                 )
                 _addToCart.postValue(Resource.Success(response))
             } catch (e: Exception) {
-                _addToCart.postValue(Resource.Error("Səbətə əlavə edilərkən xəta baş verdi."))
+                _addToCart.postValue(Resource.Error("An error occurred while adding to cart."))
             }
 
         }

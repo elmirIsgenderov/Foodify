@@ -3,7 +3,7 @@ package com.example.myfoodsapp.di
 import android.content.Context
 import androidx.room.Room
 import com.example.myfoodsapp.room.dao.OrderDao
-import com.example.myfoodsapp.room.database.RoomDatabase
+import com.example.myfoodsapp.room.database.AppDatabase
 import com.example.myfoodsapp.room.dao.CardDao
 import com.example.myfoodsapp.retrofit.datasource.RemoteDataSource
 import com.example.myfoodsapp.retrofit.apiservice.FoodsApiService
@@ -45,25 +45,6 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideDatabase(@ApplicationContext context: Context): RoomDatabase {
-        return Room.databaseBuilder(
-            context,
-            RoomDatabase::class.java,
-            "order_database"
-        ).fallbackToDestructiveMigration()
-            .build()
-    }
-
-    @Provides
-    @Singleton
-    fun provideOrderDao(db: RoomDatabase): OrderDao = db.orderDao()
-
-
-    @Provides
-    fun provideCardDao(db: RoomDatabase): CardDao = db.cardDao()
-
-    @Provides
-    @Singleton
     fun provideLocalDataSource(
         @ApplicationContext context: Context,
         orderDao: OrderDao,
@@ -80,4 +61,24 @@ object AppModule {
     ): Repository {
         return Repository(remoteDataSource, localDataSource)
     }
+
+    @Provides
+    @Singleton
+    fun provideDatabase(@ApplicationContext context: Context): AppDatabase {
+        return Room.databaseBuilder(
+            context,
+            AppDatabase::class.java,
+            "order_database"
+        ).fallbackToDestructiveMigration()
+            .build()
+    }
+
+    @Provides
+    @Singleton
+    fun provideOrderDao(db: AppDatabase): OrderDao = db.orderDao()
+
+
+    @Provides
+    fun provideCardDao(db: AppDatabase): CardDao = db.cardDao()
+
 }

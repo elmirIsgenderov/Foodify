@@ -11,7 +11,7 @@ import com.example.myfoodsapp.room.entity.OrderItem
 
 @Database(entities = [OrderItem::class, CardEntity::class], version = 2)
 @TypeConverters(Converters::class)
-abstract class RoomDatabase : RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
     abstract fun orderDao(): OrderDao
     abstract fun cardDao(): CardDao
 }

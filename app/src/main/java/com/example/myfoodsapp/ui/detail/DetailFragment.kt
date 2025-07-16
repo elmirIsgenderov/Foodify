@@ -62,11 +62,6 @@ class DetailFragment : Fragment() {
             .into(binding.imgFood)
     }
 
-    private fun setupBackButton() {
-        binding.imgBackDetail.setOnClickListener {
-            findNavController().navigate(R.id.action_detailFragment_to_homeFragment)
-        }
-    }
 
     private fun setupQuantityButtons() {
         viewModel.quantity.observe(viewLifecycleOwner) { quantity ->
@@ -124,6 +119,12 @@ class DetailFragment : Fragment() {
         }
     }
 
+    private fun setupBackButton() {
+        binding.imgBackDetail.setOnClickListener {
+            findNavController().navigate(R.id.action_detailFragment_to_homeFragment)
+        }
+    }
+
     private fun observeViewModel(food: Food) {
         viewModel.addToCart.observe(viewLifecycleOwner) { result ->
             when (result) {
@@ -141,7 +142,7 @@ class DetailFragment : Fragment() {
                     hideLoading()
                     Snackbar.make(
                         binding.root,
-                        "Xəta: ${result.message}",
+                        "Error: ${result.message}",
                         Snackbar.LENGTH_SHORT
                     ).show()
                 }

@@ -121,11 +121,8 @@ class HomeFragment : Fragment() {
         popularAdapter = PopularAdapter(emptyList())
         binding.rvPopular.apply {
             adapter = popularAdapter
-            layoutManager = LinearLayoutManager(
-                requireContext(),
-                LinearLayoutManager.HORIZONTAL,
-                false
-            )
+            layoutManager =
+                LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         }
     }
 
@@ -186,6 +183,7 @@ class HomeFragment : Fragment() {
         viewModel.popularRestaurants.observe(viewLifecycleOwner) {
             popularAdapter.updateData(it)
         }
+
     }
 
     private fun navigateToDetail(food: Food) {

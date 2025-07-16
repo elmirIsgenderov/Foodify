@@ -43,7 +43,6 @@ class BasketViewModel @Inject constructor(
             _basketFood.postValue(result)
         }
     }
-
     fun deleteFoods(foodId: Int, username: String) {
         viewModelScope.launch(Dispatchers.IO) {
             val result = repository.deleteFood(foodId, username)

@@ -15,6 +15,7 @@ import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.firestore
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import java.util.ArrayList
 
 class RemoteDataSource(private val foodsApi: FoodsApiService) {
 
